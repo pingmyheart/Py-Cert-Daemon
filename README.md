@@ -1,6 +1,6 @@
-# GIT-CLONER
+# PY-CERT-DAEMON
 
-*All-in-One GitHub and GitLab Oragnization or Group Cloner*
+*All-in-One Python based daemon to sync CA and SSL Certificates*
 
 ![Last Commit](https://img.shields.io/github/last-commit/pingmyheart/Py-Cert-Daemon)
 ![Repo Size](https://img.shields.io/github/repo-size/pingmyheart/Py-Cert-Daemon)
