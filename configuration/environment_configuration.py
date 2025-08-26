@@ -5,9 +5,9 @@ import yaml
 
 dotenv.load_dotenv()
 
-PCD_PY_CERT_SERVER_HOST = os.getenv("PCD_PY_CERT_SERVER_HOST")
-PCD_CLIENT_CONFIG_FILE = os.getenv("PCD_CLIENT_CONFIG_FILE")
-PCD_SERVER_CONFIG_FILE = os.getenv("PCD_SERVER_CONFIG_FILE")
+PCD_PY_CERT_SERVER_HOST = os.getenv("PCD_PY_CERT_SERVER_HOST") or None
+PCD_CLIENT_CONFIG_FILE = os.getenv("PCD_CLIENT_CONFIG_FILE") or "None"
+PCD_SERVER_CONFIG_FILE = os.getenv("PCD_SERVER_CONFIG_FILE") or "None"
 
 if os.path.isfile(PCD_CLIENT_CONFIG_FILE):
     with open(PCD_CLIENT_CONFIG_FILE, 'r') as file:
