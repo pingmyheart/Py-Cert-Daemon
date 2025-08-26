@@ -1,0 +1,5 @@
+from scheduling.ca_update_scheduler import CAUpdateScheduler
+from scheduling.certificate_update_scheduler import CertificateUpdateScheduler
+
+ca_update_scheduler_bean = CAUpdateScheduler()
+certificate_update_scheduler_bean = CertificateUpdateScheduler()
